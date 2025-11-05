@@ -1,0 +1,193 @@
+<html>
+
+<head>
+    <title>My First Web Page</title>
+</head>
+
+<!-- css after haed tag -->
+
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        background-color: lightgray;
+    }
+
+    th {
+        background-color: greenyellow;
+    }
+
+    th,
+    td {
+        text-align: center;
+    }
+
+    /* class indicate kora hoy in css => .class name */
+    .myclass {
+        border: 2px solid black;
+        background-color: lightblue;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .myclass p {
+        line-height: 35px;
+    }
+
+    #two {
+        text-align: center;
+        background-color: lightgreen;
+    }
+
+    #one span {
+        color: red;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+
+
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p><br>
+    <p>Paragraph 3</p>
+
+    <center><b><u>Bold Text</center></u></b>
+    <br>
+    <br>
+    <i>Italic Text</i>
+    <center>
+        <h1>Heading1=32px</h1>
+        <h2>Heading2=24px</h2>
+        <h3>Heading3=18px</h3>
+        <h4>Heading4=16px</h4>
+        <h5>Heading5=13px</h5>
+        <h6>Heading6=10px</h6>
+    </center>
+
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <h2>An Unordered list</h2>
+    <ul>
+        <li>Black Tea</li>
+
+        <li>Lemon Tea</li>
+
+        <li>Orange Tea</li>
+
+
+    </ul>
+
+
+    <h2>An Ordered list</h2>
+
+    <ol>
+        <li>Biriyani</li>
+
+        <li>Roast</li>
+
+        <li>Polao</li>
+
+
+    </ol>
+    <dl>
+        <dt>
+            <h3>HTML</h3>
+        </dt>
+
+
+        <dd><i>- Hyper Text Markup Language</i></dd>
+
+    </dl>
+
+
+    <!-- This is a comment -->
+
+    <!-- Basic Image shortcut (ctrl/) -->
+    <h1>Image Example</h1>
+    <h2>Basic Image</h2>
+    <img src="" alt="">
+
+    <img src="./nature.jpg" alt="nature.jpg" height="100" width="100">
+
+    <iframe src="./nature.jpg" height="500" width="700"></iframe>
+    <iframe src="<iframe width=" 560" height="315" src="https://www.youtube.com/embed/sckGEX88MPg?si=UfSOcRJHbfrPvsQa"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"></iframe>
+    <iframe src="c:\Users\ASUS\OneDrive\Pictures\Camera Roll\WIN_20231123_14_55_27_Pro.mp4"></iframe>
+
+
+    <h1>HTML Anchor Tag</h1>
+
+    <a href="https://www.rokomari.com/">Rokomari</a>
+
+
+    <!-- html table -->
+    <h1>HTML Table</h1>
+    <table>
+        <tr>
+            <th> Name </th>
+            <th> Age</th>
+            <th> Blood Group </th>
+            <th> Phone Number</th>
+        </tr>
+        <tr>
+            <td> John Doe </td>
+            <td> 25 </td>
+            <td style="background-color: red; color: white"> A+ </td>
+            <td> 123-456-7890 </td>
+        </tr>
+        <tr>
+            <td> Jane Smith </td>
+            <td> 30 </td>
+            <td> B- </td>
+            <td> 987-654-3210 </td>
+        </tr>
+    </table>
+
+    <!-- inline elements: -->
+    <b style="text-align: center;">this is bold text</b>
+    <i>this is italic text</i>
+
+    <!-- block level elements: -->
+    <p style="text-align: right;">this is a Paragraph1</p>
+    <p>this is a Paragraph2</p>
+
+    <div class="myclass" id="one">
+        <h2>This is a div element</h2>
+        <p>Div elements are block-level elements used to group other HTML elements together. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ipsum modi cumque debitis voluptate quis maiores cum, expedita accusantium
+            sapiente odio nemo, enim labore <span>reiciendis</span> sunt aliquam perferendis possimus neque impedit.
+            Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Excepturi odio voluptatibus aut ipsam, fuga unde aperiam. Rerum
+            animi id, repellat voluptates ullam atque voluptatem, minus quis repudiandae praesentium, consequuntur
+            dolorum.</p>
+    </div>
+    <div class="myclass" id="two">
+        <h2>This is another div element</h2>
+        <p>Div elements can be styled using CSS to create layouts and designs for web pages.</p>
+        <ol>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+        </ol>
+
+    </div>
+    <div class="myclass" id="three">
+        <h2>This is a div without class</h2>
+        <p>This div does not have the "myclass" class applied, so it will not have the same styling as the other divs.
+        </p>
+    </div>
+
+</body>
+
+</html>
